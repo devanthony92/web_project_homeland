@@ -1,0 +1,43 @@
+.article {
+  max-width: 984px;
+  margin: 92px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__title {
+  margin: 0;
+  max-width: 830px;
+  height: 174px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.article__subtitle {
+  margin-top: 40px;
+  width: 738px;
+  height: 135px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.article__autor {
+  width: 732px;
+  height: 33.91px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.article__text {
+  width: 722px;
+  height: 181.54px;
+  margin: 32px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}

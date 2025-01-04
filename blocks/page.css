@@ -1,6 +1,10 @@
+body {
+  background-color: #2a2c2f;
+}
+
 .page {
-  min-width: 769px;
-  max-width: 1280px;
+  width: 100%;
+  color: #fff;
   margin-left: auto;
   margin-right: auto;
   font-family: Inter, Arial, sans-serif;
