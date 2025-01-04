@@ -1,11 +1,11 @@
-.article {
+.content {
   max-width: 984px;
   margin: 92px auto 92px;
   display: flex;
   flex-direction: column;
 }
 
-.article__title {
+.content__title {
   margin: 0;
   max-width: 830px;
   font-size: 54px;
@@ -13,7 +13,7 @@
   line-height: 1.1;
 }
 
-.article__subtitle {
+.content__subtitle {
   margin-top: 40px;
   max-width: 740px;
   font-size: 24px;
@@ -21,7 +21,7 @@
   line-height: 1.5;
 }
 
-.article__autor {
+.content__autor {
   max-width: 732px;
   margin-top: 10px;
   font-size: 24px;
@@ -30,7 +30,7 @@
   text-align: right;
 }
 
-.article__text {
+.content__text {
   max-width: 722px;
   margin: 32px 0 0;
   font-size: 16px;
@@ -39,33 +39,33 @@
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .article {
+  .content {
     max-width: 768px;
     margin: 88px 24px;
   }
 
-  .article__title {
+  .content__title {
     max-width: 710px;
     font-size: 45px;
     line-height: 1.2;
   }
 
-  .article__subtitle {
+  .content__subtitle {
     max-width: 710px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .article {
+  .content {
     margin: 64px 16px;
   }
 
-  .article__title {
+  .content__title {
     font-size: 32px;
     line-height: 1.2;
   }
 
-  .article__subtitle {
+  .content__subtitle {
     line-height: 1.1;
   }
 }
