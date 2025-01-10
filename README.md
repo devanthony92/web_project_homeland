@@ -1,6 +1,6 @@
-# Triple Espresso
+# Homeland
 
-Bienvenido a Triple Espresso, una aplicación web que te permite ordenar tus bebidas y bocadillos favoritos desde la comodidad de tu hogar.
+Bienvenido a Homeland un pequeño vistazo a para dejar salir tu artista interior 
 
 ## Índice
 
@@ -11,28 +11,22 @@ Bienvenido a Triple Espresso, una aplicación web que te permite ordenar tus beb
 
 ## Descripción
 
-La Cafetería Virtual es una plataforma que permite a los usuarios explorar el menú de la cafetería, realizar reservas, y disfrutar de un servicio de entrega eficiente. La aplicación está construida utilizando las últimas tecnologías y tecnicas de diseño web para asegurar una experiencia rápida y fácil de usar.
+Todo ser humano es un artista, un ser de la libertad, llamado a participar en la transformación y reforma de las condiciones, el pensamiento y las estructuras que conforman e influyen en nuestras vidas. — Joseph Beuys
 
-## Funcionalidades
+## Cómo Contribuir
 
-1. Explorar Menú: Aprende a hacer las mejores recetas para los amantes al cafe
+Comparte tu historia: Describe tu ciudad natal, sus costumbres, tradiciones y lo que la hace especial para ti.
 
-2. Realiza reservas: Realiza reservaciones para ti y tu grupo de amigos y comparte los mejores momentos acompañado de una buena taza de cafe
+Aporta una obra visual: Dibuja, fotografía o diseña una pieza de arte que represente tu ciudad natal y compártela con nosotros.
 
-## Contribuir
+Conéctate con otros: Explora las historias y obras de otros colegas para aprender más sobre sus orígenes y culturas.
 
-¡Las contribuciones son bienvenidas! Sigue estos pasos para contribuir al proyecto:
+## Visitanos
 
-1. Haz un fork del repositorio.
-
-2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-
-3. Realiza tus cambios y haz commits (git commit -am 'Añade nueva característica').
-
-4. Empuja la rama (git push origin feature/nueva-caracteristica).
-
-5. Abre un pull request.
+https://devanthony92.github.io/web_project_homeland/
 
 ## Lisencia
 
 Este archivo `README.md` proporciona una estructura clara y útil para los desarrolladores y usuarios que deseen utilizar o contribuir a tu proyecto de Triple Espresso. Si necesitas más detalles o ayuda con otro aspecto del proyecto, no dudes en decírmelo.
+
+
