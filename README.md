@@ -5,8 +5,8 @@ Bienvenido a Homeland un pequeño vistazo a para dejar salir tu artista interior
 ## Índice
 
 1. [Descripción](#descripción)
-2. [Funcionalidades](#funcionalidades)
-3. [Contribuir](#contribuir)
+2. [Contribuir](#contribuir)
+3. [Visitanos](#Visitanos)
 4. [Licencia](#licencia)
 
 ## Descripción
