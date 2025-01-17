@@ -10,7 +10,7 @@
   margin-top: 92px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, min-content);
   row-gap: 80px;
 }
 
@@ -61,10 +61,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
+.place__img:hover {
+  opacity: 50%;
+}
 .place__new-img-text {
   color: #000;
   font-family: Inter;
@@ -84,6 +86,10 @@
   justify-content: center;
   align-items: center;
   box-shadow: 10px 10px 25px 0px #00000080;
+}
+
+.place__button:hover {
+  opacity: 50%;
 }
 
 .place__link {
