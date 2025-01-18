@@ -8,7 +8,7 @@
   justify-items: center;
 }
 
-.place {
+.places__grid {
   width: 985px;
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -17,7 +17,7 @@
   column-gap: 40px;
 }
 
-.place__title {
+.places__title {
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
@@ -25,13 +25,13 @@
   margin: 0;
 }
 
-.place__subtitle {
+.places__subtitle {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
 
-.place__autor {
+.places__autor {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
@@ -41,7 +41,7 @@
   color: #aaa;
 }
 
-.place__editor {
+.places__editor {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -49,7 +49,7 @@
   margin: 8px 0 0;
 }
 
-.place__img {
+.places__img {
   height: 460px;
   width: 460px;
   background-color: #c4c4c4;
@@ -59,10 +59,10 @@
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.place__img:hover {
+.places__img:hover {
   opacity: 50%;
 }
-.place__new-img-text {
+.places__new-img-text {
   color: #000;
   font-family: Inter;
   font-size: 18px;
@@ -71,7 +71,7 @@
   text-align: center;
 }
 
-.place__button {
+.places__button {
   margin-top: 48px;
   background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 4px;
@@ -83,11 +83,11 @@
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.place__button:hover {
+.places__button:hover {
   opacity: 50%;
 }
 
-.place__link {
+.places__link {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -99,7 +99,7 @@
   color: white;
 }
 
-.place__paragraph {
+.places__paragraph {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -109,7 +109,7 @@
 }
 
 @media screen and (min-width: 740px) and (max-width: 1024px) {
-  .place {
+  .places__grid {
     width: 720px;
     display: grid;
     grid-template-columns: repeat(2, 380px);
@@ -118,7 +118,7 @@
     column-gap: 32px;
   }
 
-  .place__title {
+  .places__title {
     font-family: Inter;
     font-size: 42px;
     font-weight: 900;
@@ -126,12 +126,12 @@
     margin: 0;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 16px;
     line-height: 1.5;
   }
 
-  .place__img {
+  .places__img {
     height: 380px;
     width: 380px;
   }
@@ -141,7 +141,7 @@
   .places {
     row-gap: 35px;
   }
-  .place {
+  .places__grid {
     width: 650px;
     display: grid;
     grid-template-columns: repeat(2, 300px);
@@ -150,22 +150,22 @@
     column-gap: 18px;
   }
 
-  .place__title {
+  .places__title {
     font-size: 35px;
     line-height: 1.1;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 14px;
     line-height: 1.2;
   }
 
-  .place__img {
+  .places__img {
     height: 300px;
     width: 300px;
   }
 
-  .place__link {
+  .places__link {
     font-size: 18px;
     line-height: 1.2;
   }
@@ -176,7 +176,7 @@
     margin-top: 62px;
     row-gap: 50px;
   }
-  .place {
+  .places__grid {
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -184,25 +184,25 @@
     column-gap: 0;
     row-gap: 15px;
   }
-  .place__title {
+  .places__title {
     font-size: 28px;
     line-height: 1.1;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 14px;
     line-height: 1.2;
   }
 
-  .place__img {
+  .places__img {
     height: 300px;
     width: 300px;
   }
 
-  .place__button {
+  .places__button {
     margin-top: 12px;
   }
-  .place__link {
+  .places__link {
     font-size: 16px;
     line-height: 1.2;
   }
