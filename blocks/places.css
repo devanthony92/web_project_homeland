@@ -74,7 +74,7 @@
 .places__button {
   margin-top: 48px;
   color: #fff;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 5px;
   cursor: pointer;
   width: 289px;
@@ -91,7 +91,11 @@
 }
 
 .places__button:hover {
-  opacity: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .places__paragraph {
