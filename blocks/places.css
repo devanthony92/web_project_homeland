@@ -73,8 +73,9 @@
 
 .places__button {
   margin-top: 48px;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  border-radius: 4px;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  border-radius: 5px;
+  cursor: pointer;
   width: 289px;
   height: 48px;
   display: flex;
