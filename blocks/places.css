@@ -109,12 +109,13 @@
 
 @media screen and (min-width: 740px) and (max-width: 1024px) {
   .places__grid {
-    width: 720px;
+    width: 95vw;
     display: grid;
-    grid-template-columns: repeat(2, 380px);
+    grid-template-columns: repeat(2, 21rem);
     grid-template-rows: min-content 1fr;
     row-gap: 40px;
     column-gap: 32px;
+    justify-content: center;
   }
 
   .places__title {
@@ -131,8 +132,8 @@
   }
 
   .places__img {
-    height: 380px;
-    width: 380px;
+    height: 21rem;
+    width: 21rem;
   }
 }
 
@@ -141,12 +142,13 @@
     row-gap: 35px;
   }
   .places__grid {
-    width: 650px;
+    width: 95vw;
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(2, 15rem);
     grid-template-rows: min-content 1fr;
     row-gap: 20px;
     column-gap: 18px;
+    justify-content: center;
   }
 
   .places__title {
@@ -160,12 +162,13 @@
   }
 
   .places__img {
-    height: 300px;
-    width: 300px;
+    height: 15rem;
+    width: 15rem;
   }
 
-  .places__link {
-    font-size: 18px;
+  .places__button {
+    width: 15rem;
+    font-size: 1rem;
     line-height: 1.2;
   }
 }
@@ -176,7 +179,7 @@
     row-gap: 50px;
   }
   .places__grid {
-    width: 320px;
+    width: 16rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,15 +197,16 @@
   }
 
   .places__img {
-    height: 300px;
-    width: 300px;
+    height: 16rem;
+    width: 16rem;
   }
 
   .places__button {
     margin-top: 12px;
   }
-  .places__link {
-    font-size: 16px;
+  .places__button {
+    width: 15rem;
+    font-size: 0.9rem;
     line-height: 1.2;
   }
 }
